@@ -42,7 +42,7 @@ def get_db():
 # Rota para verificar se a API está funcionando
 @app.get("/")
 def read_root():
-    return {"message": "API de Cesta Básica está funcionando"}
+    return {"message": "API está funcionando"}
 
 # Criar um novo usuário
 @app.post("/usuarios")
